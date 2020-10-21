@@ -3,7 +3,7 @@ Repository for a programming course that I am teaching my younger brother for Du
 
 ## Python
 ### 1
-Folder with files of the folowing:
+Folder with files of the following:
 - Introduction
 - Data Types
 - Conditionals
