@@ -1,19 +1,22 @@
 #Define the following:
-#Integer -
-#Float -
-#String -
+#Integer - whole number
+#Float - decimal
+#String - alphanumeric text
 
 #Fill in weather the following Values are Int, Float or Str.
-132 ==
-0.234 ==
-"129" ==
-999.12 ==
-989768 ==
-"3244.32" ==
+132 == int()
+0.234 == float()
+"129" == str()
+999.12 == float()
+989768 == int()
+"3244.32" == str()
 
 #Fix this piece of code:
-favI = input("What is your favorate integer? ")
-favISquared = fav**2
-print(favISquared)
+fav = int(input("What is your favorate integer? "))
+favSquared = fav**2
+print(favSquared)
 
 #Re-write the code above so that it does the same for a float:
+fav2 = float(input("what is your favorate float "))
+fav2squared = fav2**2
+print(fav2squared)
