@@ -5,3 +5,21 @@
 #4.Repeats step 2&3 until they guess the right number
 #5.Offers the player another round
 #Put your Code Below:
+from random import randint
+
+playAgain = "y"
+
+while playAgain == "y":
+    num = randint(1,50)
+    guess = 0
+
+    while guess != num:
+        guess = int(input("guess the number:\n"))
+        if num < guess:
+            print("to high")
+        elif num > guess:
+            print("to low")
+
+    print("well done")
+    playAgain = input("\nDo you want to play again y/n\n").lower()
+print("Thanks for playing!")
