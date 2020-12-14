@@ -16,10 +16,11 @@ while playAgain == "y":
     while guess != num:
         guess = int(input("guess the number:\n"))
         if num < guess:
-            print("to high")
+            print("too high")
         elif num > guess:
-            print("to low")
+            print("too low")
 
     print("well done")
     playAgain = input("\nDo you want to play again y/n\n").lower()
+
 print("Thanks for playing!")
