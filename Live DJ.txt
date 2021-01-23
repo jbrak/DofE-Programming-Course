@@ -1,0 +1,28 @@
+use_bpm 65
+
+live_loop :drums do
+  sample :drum_snare_hard
+  sleep 1
+  sample :sn_dolf
+  sleep 1
+end
+
+live_loop :sample do
+  sync :drums
+  sample :loop_safari, beat_stretch: 7
+  sleep 7
+end
+
+live_loop :bass do
+  sync :drums
+  use_synth :zawa
+  sample :bd_sone, amp: 3
+  play chord(:c2, :minor).choose, sustain: 7, amp: 0.5
+  sleep 8
+end
+
+live_loop :effects do
+  sync :drums
+  sample choose ([:elec_blip2, :elec_twip, :elec_ping, :elec_beep])
+  sleep 2
+end
