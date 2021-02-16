@@ -32,3 +32,31 @@ h3 {
   border-radius: 100%;
   padding: 5px;
 }
+
+nav ul{
+  background-color: tomato;
+  border-style: solid;
+  border-color: mediumVioletRed;
+  border-width: 2px;
+  pading: 10px;
+  border-radius: 20px;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: PapayaWhip;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: none;
+}
+h2{
+  color: DarkOrange;
+}
+#profile{
+  border: none;
+}
