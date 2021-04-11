@@ -3,8 +3,7 @@ from microbit import *
 import neopixel
 
 #Stuff to run once at the beggining
-neopixel.NeoPixel(1, 24)
+np = neopixel.NeoPixel(1, 24)
 
 #Stuff to run repeatedly
 while True:
-    
